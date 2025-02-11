@@ -428,7 +428,7 @@ Trying deploying another pod without any toleration.
 
 Notice it gets scheduled on Node2. reason being Node1 has NoSchedule Taint still enabled.
 ```
-kubectl run pod-test --image nignx
+kubectl run pod-test --image nginx
 ```
 
 CLEANUP
